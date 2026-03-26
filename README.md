@@ -1,6 +1,4 @@
-This is a full, professional `README.md` file designed for your GitHub repository. It uses Markdown formatting (Headings, Bolding, Code Blocks, and Lists) to look exactly like a high-level open-source project.
 
-Save this text into a file named **`README.md`** in your project folder.
 
 -----
 
@@ -103,8 +101,3 @@ Distributed under the **MIT License**. You are free to use, modify, and distribu
 
 -----
 
-### Pro-Tip for your GitHub Profile:
-
-To make this look even better, you can add a **screenshot** of your API's JSON output in the "Features" section. This proves to recruiters that your code actually runs\!
-
-**Would you like me to show you how to add the Discord Webhook code so your API can "shout" at you when a price drops?**
