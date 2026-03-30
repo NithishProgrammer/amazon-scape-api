@@ -68,6 +68,24 @@ A **production-ready asynchronous API** designed to scrape, monitor, and track p
   "Availability": "in stock"
 }
 ```
+-----
+## 📉 Smart Price Tracking & Insights (New)
+The API now features Local Persistence, allowing it to remember products you've previously tracked. By caching data locally, the system can perform historical price analysis to give you "Buy or Wait" suggestions.
+
+Endpoint: `GET /suggest`
+Parameters: `url` (Amazon Product Link)
+
+**Action: Compares the current live price against the last saved "Snapshot" in your local database.**
+
+Sample Response:
+
+```JSON
+{
+  "product": "Apple iPhone 15 (128 GB)",
+  "Price" : 89,000
+  "suggestion": "Buy Now - This is the lowest recorded price in your local history."
+}
+```
 
 -----
 
